@@ -5,6 +5,7 @@ export const NavigationContainer = styled.nav`
     list-style: none;
     display: flex;
     align-items: center;
+    margin-right: 60px;
   }
   .navItem:not(:last-child) {
     margin-right: 20px;
