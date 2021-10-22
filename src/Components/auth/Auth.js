@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { signUpError } from "../../redux/auth/authActions";
+// import { signUpError } from "../../redux/auth/authActions";
 import {
   signInOperation,
   signUpOperation,
@@ -18,8 +18,8 @@ const Auth = () => {
   return (
     <>
       <AuthForm signUp={signUp} signIn={signIn} />
-      {/* {error && <h2>{error}</h2>}
-      {loader && <h2>...loading</h2>} */}
+      {error && <h2>{error}</h2>}
+      {loader && <h2>...loading</h2>}
     </>
   );
 };
