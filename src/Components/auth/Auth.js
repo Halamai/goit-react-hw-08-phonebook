@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useCallback, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { useLocation } from "react-router";
+import { signUpError } from "../../redux/auth/authActions";
 // import { signUpError } from "../../redux/auth/authActions";
 import {
   signInOperation,
@@ -12,9 +14,14 @@ const Auth = () => {
   const dispatch = useDispatch();
   const error = useSelector(errorSelector);
   const loader = useSelector(loaderSelector);
-  // const resetError = () => error && dispatch(signUpError(""));
+  const location = useLocation();
   const signUp = (user) => dispatch(signUpOperation(user));
   const signIn = (user) => dispatch(signInOperation(user));
+  const resetError = useCallback(() => dispatch(signUpError("")), [dispatch]);
+
+  useEffect(() => {
+    resetError();
+  }, [location, resetError]);
   return (
     <>
       <AuthForm signUp={signUp} signIn={signIn} />
