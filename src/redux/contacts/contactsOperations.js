@@ -4,13 +4,15 @@ import {
   getAllContacts,
   removeContact,
   setError,
-  setLoader,
+  // setLoader,
+  setLoaderOff,
+  setLoaderOn,
 } from "./actions";
 
 const addContactsOperation = (form) => async (dispatch, getState) => {
   const localId = getState().authorization.tokens.localId;
   const idToken = getState().authorization.tokens.idToken;
-  dispatch(setLoader());
+  dispatch(setLoaderOn());
   try {
     const response = await axios.post(
       `https://homework07-e8e46-default-rtdb.firebaseio.com/${localId}/contacts.json?auth=${idToken}`,
@@ -21,14 +23,14 @@ const addContactsOperation = (form) => async (dispatch, getState) => {
   } catch (error) {
     dispatch(setError(error.message));
   } finally {
-    dispatch(setLoader());
+    dispatch(setLoaderOff());
   }
 };
 
 const getAllContactsOperation = () => async (dispatch, getState) => {
   const localId = getState().authorization.tokens.localId;
   const idToken = getState().authorization.tokens.idToken;
-  dispatch(setLoader());
+  dispatch(setLoaderOn());
   try {
     const response = await axios.get(
       `https://homework07-e8e46-default-rtdb.firebaseio.com/${localId}/contacts.json?auth=${idToken}`
@@ -43,13 +45,13 @@ const getAllContactsOperation = () => async (dispatch, getState) => {
   } catch (error) {
     dispatch(setError(error.message));
   } finally {
-    dispatch(setLoader());
+    dispatch(setLoaderOff());
   }
 };
 const removeContactOperation = (id) => async (dispatch, getState) => {
   const localId = getState().authorization.tokens.localId;
   const idToken = getState().authorization.tokens.idToken;
-  dispatch(setLoader());
+  dispatch(setLoaderOn());
   try {
     await axios.delete(
       `https://homework07-e8e46-default-rtdb.firebaseio.com/${localId}/contacts/${id}.json?auth=${idToken}`
@@ -59,7 +61,7 @@ const removeContactOperation = (id) => async (dispatch, getState) => {
   } catch (error) {
     dispatch(setError(error.message));
   } finally {
-    dispatch(setLoader());
+    dispatch(setLoaderOff());
   }
 };
 

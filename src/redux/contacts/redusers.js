@@ -6,8 +6,9 @@ import {
   addNewContact,
   removeContact,
   setFilter,
-  setLoader,
+  setLoaderOn,
   setError,
+  setLoaderOff,
 } from "./actions";
 import { signOutSuccess } from "../auth/authActions";
 
@@ -20,8 +21,9 @@ const itemsRedusers = createReducer([], {
 });
 
 const contactLoaderReducer = createReducer(false, {
-  [setLoader]: (state) => !state,
+  [setLoaderOn]: () => true,
   [signOutSuccess]: () => false,
+  [setLoaderOff]: () => false,
 });
 
 const filterReduser = createReducer("", {
