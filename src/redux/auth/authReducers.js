@@ -54,6 +54,8 @@ const authErrorReducer = createReducer("", {
   [signInError]: (_, action) => action.payload,
   [signOutError]: (_, action) => action.payload,
   [signOutSuccess]: () => "",
+  [signUpRequest]: () => "",
+  [signInRequest]: () => "",
 });
 
 export const authReducer = combineReducers({

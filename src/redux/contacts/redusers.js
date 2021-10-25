@@ -9,6 +9,7 @@ import {
   setLoaderOn,
   setError,
   setLoaderOff,
+  // setErrorReset,
 } from "./actions";
 import { signOutSuccess } from "../auth/authActions";
 
@@ -33,6 +34,10 @@ const filterReduser = createReducer("", {
 const errorReducer = createReducer("", {
   [setError]: (_, action) => action.payload,
   [signOutSuccess]: () => "",
+  [addNewContact]: () => "",
+  [getAllContacts]: () => "",
+  [removeContact]: () => "",
+  // [setErrorReset]: () => "",
 });
 
 export const contactsReduser = combineReducers({

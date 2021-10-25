@@ -1,26 +1,25 @@
 {
   "files": {
-    "AuthPage.js": "/static/js/AuthPage.6b56b237.chunk.js",
-    "AuthPage.js.map": "/static/js/AuthPage.6b56b237.chunk.js.map",
-    "HomePage.js": "/static/js/HomePage.6aadbc4d.chunk.js",
-    "HomePage.js.map": "/static/js/HomePage.6aadbc4d.chunk.js.map",
-    "PhonesPage.js": "/static/js/PhonesPage.5c36c1ed.chunk.js",
-    "PhonesPage.js.map": "/static/js/PhonesPage.5c36c1ed.chunk.js.map",
-    "main.css": "/static/css/main.e421dbcd.chunk.css",
-    "main.js": "/static/js/main.b3c5cb4f.chunk.js",
-    "main.js.map": "/static/js/main.b3c5cb4f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1e4e01b9.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1e4e01b9.js.map",
-    "static/js/5.5c874523.chunk.js": "/static/js/5.5c874523.chunk.js",
-    "static/js/5.5c874523.chunk.js.map": "/static/js/5.5c874523.chunk.js.map",
+    "AuthPage.js": "/static/js/AuthPage.e393ca59.chunk.js",
+    "AuthPage.js.map": "/static/js/AuthPage.e393ca59.chunk.js.map",
+    "HomePage.js": "/static/js/HomePage.5fdff7d8.chunk.js",
+    "HomePage.js.map": "/static/js/HomePage.5fdff7d8.chunk.js.map",
+    "PhonesPage.css": "/static/css/PhonesPage.e421dbcd.chunk.css",
+    "PhonesPage.js": "/static/js/PhonesPage.baa15fcd.chunk.js",
+    "PhonesPage.js.map": "/static/js/PhonesPage.baa15fcd.chunk.js.map",
+    "main.js": "/static/js/main.77755dcd.chunk.js",
+    "main.js.map": "/static/js/main.77755dcd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8510da8e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8510da8e.js.map",
+    "static/js/5.d9fd1ad0.chunk.js": "/static/js/5.d9fd1ad0.chunk.js",
+    "static/js/5.d9fd1ad0.chunk.js.map": "/static/js/5.d9fd1ad0.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e421dbcd.chunk.css.map": "/static/css/main.e421dbcd.chunk.css.map",
-    "static/js/5.5c874523.chunk.js.LICENSE.txt": "/static/js/5.5c874523.chunk.js.LICENSE.txt"
+    "static/css/PhonesPage.e421dbcd.chunk.css.map": "/static/css/PhonesPage.e421dbcd.chunk.css.map",
+    "static/js/5.d9fd1ad0.chunk.js.LICENSE.txt": "/static/js/5.d9fd1ad0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1e4e01b9.js",
-    "static/js/5.5c874523.chunk.js",
-    "static/css/main.e421dbcd.chunk.css",
-    "static/js/main.b3c5cb4f.chunk.js"
+    "static/js/runtime-main.8510da8e.js",
+    "static/js/5.d9fd1ad0.chunk.js",
+    "static/js/main.77755dcd.chunk.js"
   ]
 }
