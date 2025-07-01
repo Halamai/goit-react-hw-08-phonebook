@@ -6,14 +6,9 @@
     <script src="https://unpkg.com/netlify-cms@^2.10.192/dist/netlify-cms.js"></script>
   </head>
   <body>
-    <!-- Цей div обов'язково має бути -->
     <div id="nc-root"></div>
-
-    <!-- Ініціалізація CMS -->
     <script>
-      window.addEventListener("DOMContentLoaded", function () {
-        CMS.init({ config: "/admin/config.yml" });
-      });
+      CMS.init({ config: "/admin/config.yml" });
     </script>
   </body>
 </html>
