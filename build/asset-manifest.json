@@ -1,25 +1,30 @@
 {
   "files": {
-    "AuthPage.js": "/static/js/AuthPage.e393ca59.chunk.js",
-    "AuthPage.js.map": "/static/js/AuthPage.e393ca59.chunk.js.map",
-    "HomePage.js": "/static/js/HomePage.5fdff7d8.chunk.js",
-    "HomePage.js.map": "/static/js/HomePage.5fdff7d8.chunk.js.map",
-    "PhonesPage.css": "/static/css/PhonesPage.e421dbcd.chunk.css",
-    "PhonesPage.js": "/static/js/PhonesPage.baa15fcd.chunk.js",
-    "PhonesPage.js.map": "/static/js/PhonesPage.baa15fcd.chunk.js.map",
-    "main.js": "/static/js/main.77755dcd.chunk.js",
-    "main.js.map": "/static/js/main.77755dcd.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8510da8e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8510da8e.js.map",
-    "static/js/5.d9fd1ad0.chunk.js": "/static/js/5.d9fd1ad0.chunk.js",
-    "static/js/5.d9fd1ad0.chunk.js.map": "/static/js/5.d9fd1ad0.chunk.js.map",
+    "AuthPage.js": "/static/js/AuthPage.bb645b67.chunk.js",
+    "AuthPage.js.map": "/static/js/AuthPage.bb645b67.chunk.js.map",
+    "ContactPage.js": "/static/js/ContactPage.12b02875.chunk.js",
+    "ContactPage.js.map": "/static/js/ContactPage.12b02875.chunk.js.map",
+    "HomePage.js": "/static/js/HomePage.e9b47982.chunk.js",
+    "HomePage.js.map": "/static/js/HomePage.e9b47982.chunk.js.map",
+    "PhonesPage.css": "/static/css/PhonesPage.6193dea2.chunk.css",
+    "PhonesPage.js": "/static/js/PhonesPage.5f7a60f7.chunk.js",
+    "PhonesPage.js.map": "/static/js/PhonesPage.5f7a60f7.chunk.js.map",
+    "main.js": "/static/js/main.4915a69f.chunk.js",
+    "main.js.map": "/static/js/main.4915a69f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9fc43c2f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9fc43c2f.js.map",
+    "static/js/6.be3f0395.chunk.js": "/static/js/6.be3f0395.chunk.js",
+    "static/js/6.be3f0395.chunk.js.map": "/static/js/6.be3f0395.chunk.js.map",
+    "static/js/7.881d7a6b.chunk.js": "/static/js/7.881d7a6b.chunk.js",
+    "static/js/7.881d7a6b.chunk.js.map": "/static/js/7.881d7a6b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/PhonesPage.e421dbcd.chunk.css.map": "/static/css/PhonesPage.e421dbcd.chunk.css.map",
-    "static/js/5.d9fd1ad0.chunk.js.LICENSE.txt": "/static/js/5.d9fd1ad0.chunk.js.LICENSE.txt"
+    "static/css/PhonesPage.6193dea2.chunk.css.map": "/static/css/PhonesPage.6193dea2.chunk.css.map",
+    "static/js/6.be3f0395.chunk.js.LICENSE.txt": "/static/js/6.be3f0395.chunk.js.LICENSE.txt",
+    "static/js/7.881d7a6b.chunk.js.LICENSE.txt": "/static/js/7.881d7a6b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8510da8e.js",
-    "static/js/5.d9fd1ad0.chunk.js",
-    "static/js/main.77755dcd.chunk.js"
+    "static/js/runtime-main.9fc43c2f.js",
+    "static/js/6.be3f0395.chunk.js",
+    "static/js/main.4915a69f.chunk.js"
   ]
 }
