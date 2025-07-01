@@ -6,19 +6,12 @@ media_folder: "public/uploads"
 public_folder: "/uploads"
 
 collections:
-  - name: content
-    label: Контент сайту
-    files:
-      - file: "src/content/about.md"
-        label: Про нас
-        name: about
-        fields:
-          - { label: Заголовок, name: title, widget: string }
-          - { label: Контент, name: body, widget: markdown }
-
-      - file: "src/content/contact.md"
-        label: Контакти
-        name: contact
-        fields:
-          - { label: Email, name: email, widget: string }
-          - { label: Телефон, name: phone, widget: string }
+  - name: "contacts"
+    label: "Contacts"
+    folder: "src/content"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Ім'я", name: "name", widget: "string" }
+      - { label: "Телефон", name: "phone", widget: "string" }
+      - { label: "Email", name: "email", widget: "string" }
